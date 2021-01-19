@@ -15,7 +15,7 @@ const int N = 1e6;
 double L = 8.0; //Box size in units of Ld
 double dr = L/(N+1.);
 double h = 0.65; //External magnetic field in units of Bd
-double u = 0.0; //Anisotropy in units of Ld and Bd
+double u = 0.0; //Anisotropy in units of Bd
 double To = pi, Tn = 0.; // skyrmion boundary conditions
 double tolerance = 1e-10, dif = 1;
 
