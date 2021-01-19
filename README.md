@@ -18,7 +18,7 @@ Applying the second order finite difference scheme for derivatives leads to the 
 	A_{i,j} * T_{i} = b_{j},
 
 with nonzero elemnts A_{i,i}, A_{i,i+1}, A{i+1,i}.
-The system is solved by Gauss elimination method with consequental back substitution.
+The system is solved by Gauss elimination method with consequential back substitution.
 The error is given by 
 
 	Error = \Int (T-T0)^2 dr, r \in (0,L).
